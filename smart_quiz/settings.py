@@ -96,11 +96,5 @@ LOGOUT_REDIRECT_URL = 'quiz:login'
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
-STORAGES = {
-    "default": {
-        "BACKEND": "django.core.files.storage.FileSystemStorage",
-    },
-    "staticfiles": {
-        "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
-    },
-}
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
