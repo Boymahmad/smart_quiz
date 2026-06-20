@@ -1,0 +1,18 @@
+subject,subject_time,question,difficulty,option_a,option_b,option_c,option_d,correct_option
+C++,40,Кадом оператор барои баровардани маълумот дар C++ истифода мешавад?,easy,cin,cout,print,echo,b
+C++,40,Кадом калима барои оғоз кардани барнома лозим аст?,easy,main,start,begin,program,a
+C++,40,Кадом аломат барои анҷоми ҳар як оператор истифода мешавад?,easy,:,.,;,',c
+C++,40,Кадом намуди дода барои ададҳои бутун аст?,easy,float,double,int,char,c
+C++,40,Кадом китобхона барои cout лозим аст?,easy,<math.h>,<stdio.h>,<iostream>,<string>,c
+
+C++,40,Натиҷаи 5 / 2 дар C++ (int) чанд мешавад?,medium,2.5,3,2,Error,c
+C++,40,Кадом цикл ҳадди ақал як бор иҷро мешавад?,medium,for,while,do while,foreach,c
+C++,40,Кадом оператор баробариро месанҷад?,medium,=,==,!=,<=,b
+C++,40,Натиҷаи иҷрои: int a=5; cout<<a++?,medium,6,5,Error,4,b
+C++,40,Кадом массив дуруст эълон шудааст?,medium,int a[5];,int a;,array a[5];,a[5]int;,a
+
+C++,40,Натиҷаи sizeof(char) чанд байт аст?,hard,2,4,1,8,c
+C++,40,Кадом фарқ байни struct ва class дуруст аст?,hard,struct private аст,class public аст,struct пешфарз public аст,class пешфарз private аст,Фарқ надоранд,b
+C++,40,Натиҷаи иҷрои: int x=10; cout<<++x<<x++?,hard,1111,1112,1212,1110,b
+C++,40,Кадом калима барои манъ кардани нусхабардории объект истифода мешавад?,hard,delete,const,static,explicit,a
+C++,40,Кадом хатои асосӣ дар pointer метавонад segmentation fault диҳад?,hard,истифодаи array,истифодаи reference,дастрасӣ ба nullptr,истифодаи vector,c

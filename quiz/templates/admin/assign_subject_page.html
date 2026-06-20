@@ -1,0 +1,32 @@
+{% extends "admin/base_site.html" %}
+
+{% block content %}
+<h2>Ба user-ҳо фан иҷозат додан</h2>
+
+<form method="post">
+    {% csrf_token %}
+
+    <h3>User-ҳоро интихоб кунуд:</h3>
+    {% for user in users %}
+        <label>
+            <input type="checkbox" name="user_ids" value="{{ user.id }}">
+            {{ user.username }}
+        </label><br>
+    {% endfor %}
+
+    <br>
+
+    <h3>Фанро интихоб кунед:</h3>
+    <select name="subject" required>
+        {% for subject in subjects %}
+            <option value="{{ subject.id }}">{{ subject.name }}</option>
+        {% endfor %}
+    </select>
+
+    <br><br>
+
+    <button type="submit" class="button default">
+        Иҷро кардан
+    </button>
+</form>
+{% endblock %}
